@@ -1,0 +1,62 @@
+PCBNEW-LibModule-V1  2023-04-20 06:50:46
+# encoding utf-8
+Units mm
+$INDEX
+FN_1
+$EndINDEX
+$MODULE FN_1
+Po 0 0 0 15 6440d2b6 00000000 ~~
+Li FN_1
+Cd FN_1
+Kw Undefined or Miscellaneous
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.34 -1.744 1.27 1.27 0 0.254 N V 21 N "U**"
+T1 -0.34 -1.744 1.27 1.27 0 0.254 N I 21 N "FN_1"
+DS -1 -1.2 1 -1.2 0.2 24
+DS 1 -1.2 1 1.2 0.2 24
+DS 1 1.2 -1 1.2 0.2 24
+DS -1 1.2 -1 -1.2 0.2 24
+DS -1 1.2 1 1.2 0.2 21
+DS 1 -1.2 -1 -1.2 0.2 21
+DC -1.528 -0.644 -1.56223 -0.644 0.254 21
+$PAD
+Po -0.75 -0.65
+Sh "1" R 0.4 1 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.75 0
+Sh "2" R 0.4 1 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.75 0.65
+Sh "3" R 0.4 1 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.75 0.65
+Sh "4" R 0.4 1 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.75 0
+Sh "5" R 0.4 1 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.75 -0.65
+Sh "6" R 0.4 1 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE FN_1
+$EndLIBRARY

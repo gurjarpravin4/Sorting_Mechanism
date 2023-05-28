@@ -1,0 +1,423 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"58 D:\Documents\TE_Mini_Project\Schematics\Main_Project\Code\sorting_mech.X\main.c
+[v _msDelay msDelay `(v  1 e 1 0 ]
+"65
+[v _init init `(v  1 e 1 0 ]
+"101
+[v _toggle_conveyor toggle_conveyor `(v  1 e 1 0 ]
+"105
+[v _measure_color measure_color `(ui  1 e 2 0 ]
+"113
+[v _get_color get_color `(ui  1 e 2 0 ]
+"132
+[v _get_weight get_weight `(ui  1 e 2 0 ]
+"139
+[v _adjust_red_flap adjust_red_flap `(v  1 e 1 0 ]
+"191
+[v _adjust_blue_flap adjust_blue_flap `(v  1 e 1 0 ]
+"243
+[v _adjust_jaw adjust_jaw `(v  1 e 1 0 ]
+"295
+[v _sort_light_obj sort_light_obj `(v  1 e 1 0 ]
+"315
+[v _sort_heavy_obj sort_heavy_obj `(v  1 e 1 0 ]
+"331
+[v _take_action take_action `(v  1 e 1 0 ]
+"342
+[v _main main `(v  1 e 1 0 ]
+[s S104 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2353 C:/Users/user/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4550.h
+[s S253 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S261 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S267 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S270 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S272 . 1 `S104 1 . 1 0 `S253 1 . 1 0 `S261 1 . 1 0 `S267 1 . 1 0 `S270 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES272  1 e 1 @3968 ]
+[s S141 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2483
+[s S382 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S390 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S393 . 1 `S141 1 . 1 0 `S382 1 . 1 0 `S390 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES393  1 e 1 @3969 ]
+[s S418 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2605
+[s S427 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S434 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S441 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S445 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S448 . 1 `S418 1 . 1 0 `S427 1 . 1 0 `S434 1 . 1 0 `S441 1 . 1 0 `S445 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES448  1 e 1 @3970 ]
+[s S65 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"2736
+[s S201 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S210 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S213 . 1 `S65 1 . 1 0 `S201 1 . 1 0 `S210 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES213  1 e 1 @3971 ]
+[s S306 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RDPU 1 0 :1:7 
+]
+"2868
+[s S313 . 1 `uc 1 CK1SPP 1 0 :1:0 
+`uc 1 CK2SPP 1 0 :1:1 
+`uc 1 OESPP 1 0 :1:2 
+]
+[s S317 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S324 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S331 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RE7 1 0 :1:7 
+]
+[u S336 . 1 `S306 1 . 1 0 `S313 1 . 1 0 `S317 1 . 1 0 `S324 1 . 1 0 `S331 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES336  1 e 1 @3972 ]
+[s S96 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[u S112 . 1 `S96 1 . 1 0 `S104 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES112  1 e 1 @3986 ]
+[s S132 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[u S150 . 1 `S132 1 . 1 0 `S141 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES150  1 e 1 @3987 ]
+[s S24 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S31 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S38 . 1 `S24 1 . 1 0 `S31 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES38  1 e 1 @3988 ]
+[s S56 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[u S74 . 1 `S56 1 . 1 0 `S65 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES74  1 e 1 @3989 ]
+[s S172 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"4245
+[s S176 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+[u S180 . 1 `S172 1 . 1 0 `S176 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES180  1 e 1 @3990 ]
+"56 D:\Documents\TE_Mini_Project\Schematics\Main_Project\Code\sorting_mech.X\main.c
+[v _col col `ui  1 e 2 0 ]
+"342
+[v _main main `(v  1 e 1 0 ]
+{
+"344
+[v main@weight weight `ui  1 a 2 70 ]
+[v main@color color `ui  1 a 2 68 ]
+"356
+} 0
+"331
+[v _take_action take_action `(v  1 e 1 0 ]
+{
+[v take_action@c c `ui  1 p 2 64 ]
+[v take_action@w w `ui  1 p 2 66 ]
+"340
+} 0
+"295
+[v _sort_light_obj sort_light_obj `(v  1 e 1 0 ]
+{
+[v sort_light_obj@col col `ui  1 p 2 60 ]
+"314
+} 0
+"139
+[v _adjust_red_flap adjust_red_flap `(v  1 e 1 0 ]
+{
+"167
+[v adjust_red_flap@i_560 i `ui  1 a 2 56 ]
+"143
+[v adjust_red_flap@i i `ui  1 a 2 54 ]
+"141
+[v adjust_red_flap@no_of_steps no_of_steps `ui  1 a 2 58 ]
+"139
+[v adjust_red_flap@degrees degrees `ui  1 p 2 49 ]
+[v adjust_red_flap@direction direction `ui  1 p 2 51 ]
+"190
+} 0
+"191
+[v _adjust_blue_flap adjust_blue_flap `(v  1 e 1 0 ]
+{
+"219
+[v adjust_blue_flap@i_574 i `ui  1 a 2 56 ]
+"195
+[v adjust_blue_flap@i i `ui  1 a 2 54 ]
+"193
+[v adjust_blue_flap@no_of_steps no_of_steps `ui  1 a 2 58 ]
+"191
+[v adjust_blue_flap@degrees degrees `ui  1 p 2 49 ]
+[v adjust_blue_flap@direction direction `ui  1 p 2 51 ]
+"242
+} 0
+"315
+[v _sort_heavy_obj sort_heavy_obj `(v  1 e 1 0 ]
+{
+[v sort_heavy_obj@col col `ui  1 p 2 60 ]
+"330
+} 0
+"101
+[v _toggle_conveyor toggle_conveyor `(v  1 e 1 0 ]
+{
+[v toggle_conveyor@in_1 in_1 `ui  1 p 2 0 ]
+[v toggle_conveyor@in_2 in_2 `ui  1 p 2 2 ]
+"104
+} 0
+"58
+[v _msDelay msDelay `(v  1 e 1 0 ]
+{
+"59
+[v msDelay@i i `ui  1 a 2 4 ]
+[v msDelay@j j `ui  1 a 2 2 ]
+"58
+[v msDelay@t t `ui  1 p 2 0 ]
+"63
+} 0
+"243
+[v _adjust_jaw adjust_jaw `(v  1 e 1 0 ]
+{
+"271
+[v adjust_jaw@i_580 i `ui  1 a 2 56 ]
+"247
+[v adjust_jaw@i i `ui  1 a 2 54 ]
+"245
+[v adjust_jaw@no_of_steps no_of_steps `ui  1 a 2 58 ]
+"243
+[v adjust_jaw@degrees degrees `ui  1 p 2 49 ]
+[v adjust_jaw@direction direction `ui  1 p 2 51 ]
+"294
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 48 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 47 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 39 ]
+"70
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 33 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 26 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 31 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 38 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 37 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 30 ]
+"11
+[v ___fldiv@b b `d  1 p 4 14 ]
+[v ___fldiv@a a `d  1 p 4 18 ]
+"185
+} 0
+"65 D:\Documents\TE_Mini_Project\Schematics\Main_Project\Code\sorting_mech.X\main.c
+[v _init init `(v  1 e 1 0 ]
+{
+"99
+} 0
+"132
+[v _get_weight get_weight `(ui  1 e 2 0 ]
+{
+"138
+} 0
+"113
+[v _get_color get_color `(ui  1 e 2 0 ]
+{
+"114
+[v get_color@blue_val blue_val `ui  1 a 2 12 ]
+[v get_color@red_val red_val `ui  1 a 2 10 ]
+"131
+} 0
+"105
+[v _measure_color measure_color `(ui  1 e 2 0 ]
+{
+[v measure_color@s2_val s2_val `ui  1 p 2 0 ]
+[v measure_color@s3_val s3_val `ui  1 p 2 2 ]
+"112
+} 0

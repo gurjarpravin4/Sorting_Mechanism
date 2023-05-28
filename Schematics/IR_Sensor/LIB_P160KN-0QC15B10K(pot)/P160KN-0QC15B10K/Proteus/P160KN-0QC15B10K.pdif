@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "P160KN-0QC15B10K"
+   (description "Potentiometers 16mm Rotary Panel Potentiometer")
+   (family "ANA")
+   (package "P160KN0QC15B10K")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/91824.pdf")
+   (attribute "Geometry.Height" "16.5mm")
+   (attribute "Manufacturer_Name" "TT Electronics")
+   (attribute "Manufacturer_Part_Number" "P160KN-0QC15B10K")
+   (attribute "Mouser Part Number" "858-P160KN-0QC15B10K")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/BI-Technologies-TT-Electronics/P160KN-0QC15B10K?qs=%252BUYXD5bnyXowj%252Bd8P32cNw%3D%3D")
+   (attribute "Arrow Part Number" "P160KN-0QC15B10K")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/p160kn-0qc15b10k/bi-technologies")
+   (gate
+    (symbol "P160KN-0QC15B10K")
+    (pin "CCW" 1 PS)
+    (pin "S" 2 PS)
+    (pin "CW" 3 PS)
+   )
+  )
+  (symbol "P160KN-0QC15B10K"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "P160KN0QC15B10K"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.7 -3.5)
+      (pt 3.8 -3.5)
+      (pt 3.8 13.5)
+      (pt -5.7 13.5)
+      (pt -5.7 -3.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 3.8 8.25)
+      (pt 10.3 8.25)
+      (pt 10.3 1.75)
+      (pt 3.8 1.75)
+      (pt 3.8 8.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 10.3 8)
+      (pt 18.8 8)
+      (pt 18.8 2)
+      (pt 10.3 2)
+      (pt 10.3 8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.7 13.5)
+      (pt 3.8 13.5)
+      (pt 3.8 -3.5)
+      (pt -5.7 -3.5)
+      (pt -5.7 13.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.7 14.5)
+      (pt 19.8 14.5)
+      (pt 19.8 -4.5)
+      (pt -6.7 -4.5)
+      (pt -6.7 14.5))))
+   (leg 1 (pt 0.000 -0.000) (padstack 1))
+   (leg 2 (pt 0.000 5.000) (padstack 0))
+   (leg 3 (pt 0.000 10.000) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (padstack 1
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (square 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (square 2.100))
+   )
+   (model "P160KN-0QC15B10K.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

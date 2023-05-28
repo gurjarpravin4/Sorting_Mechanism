@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCS34725FN
+D Colour Light to Digital Converter DFN6 ams TCS34725FN Ambient Light Sensor Unit Surface Mount 6-Pin DFN
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-7/120564.pdf
+$ENDCMP
+#
+#End Doc Library

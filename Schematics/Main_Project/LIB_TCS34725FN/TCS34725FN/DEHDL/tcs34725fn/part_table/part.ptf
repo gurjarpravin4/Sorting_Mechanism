@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCS34725FN'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "ams", "TCS34725FN" (!) = "", "FN_1", "Other", "985-TCS34725FN", "https://www.mouser.co.uk/ProductDetail/ams/TCS34725FN?qs=ECv0MKUHA8HkCOWi8XoeIw%3D%3D", "TCS34725FN", "https://www.arrow.com/en/products/tcs34725fn/ams-ag?region=nac", "Colour Light to Digital Converter DFN6 ams TCS34725FN Ambient Light Sensor Unit Surface Mount 6-Pin DFN", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-7/120564.pdf"
+END_PART
+
+END.

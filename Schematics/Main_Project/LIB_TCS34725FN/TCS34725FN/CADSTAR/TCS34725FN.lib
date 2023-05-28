@@ -1,0 +1,17 @@
+.TCS34725FN :1 ;Colour Light to Digital Converter DFN6 ams TCS34725FN Ambient Light Sensor Unit Surface Mount 6-Pin DFN
+FN_1
+*STM U
+*NGS
+*PLB 1="VDD" 2="SCL" 3="GND" 4="NC" 5="INT" 6="SDA"
+*MXP 6
+*DFN TCS34725FN
+~!Manufacturer_Name (ams)
+~!Manufacturer_Part_Number (TCS34725FN)
+~!Mouser Part Number (985-TCS34725FN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ams/TCS34725FN?qs=ECv0MKUHA8HkCOWi8XoeIw%3D%3D)
+~!Arrow Part Number (TCS34725FN)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tcs34725fn/ams-ag?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS-7/120564.pdf)
+~!Height (-)
+TCS34725FN
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

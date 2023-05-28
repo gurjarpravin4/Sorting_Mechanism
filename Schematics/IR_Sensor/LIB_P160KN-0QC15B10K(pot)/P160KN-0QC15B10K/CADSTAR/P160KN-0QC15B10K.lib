@@ -1,0 +1,18 @@
+.P160KN-0QC15B10K :1 ;Potentiometers 16mm Rotary Panel Potentiometer
+P160KN0QC15B10K
+*STM VR
+*NGS
+*PLB 1="CCW" 2="S" 3="CW"
+*MXP 3
+*DFN P160KN-0QC15B10K
+~!Manufacturer_Name (TT Electronics)
+~!Manufacturer_Part_Number (P160KN-0QC15B10K)
+~!Mouser Part Number (858-P160KN-0QC15B10K)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/BI-Technologies-TT-Electronics/P160KN-0QC15B10K?qs=%252BUYXD5bnyXowj%252Bd8P32cNw%3D%3D)
+~!Arrow Part Number (P160KN-0QC15B10K)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/p160kn-0qc15b10k/bi-technologies)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/91824.pdf)
+~!Height (16.5mm)
+~!3D_Model (P160KN-0QC15B10K)
+P160KN-0QC15B10K
+1.1!U 2.1!U 3.1!U 

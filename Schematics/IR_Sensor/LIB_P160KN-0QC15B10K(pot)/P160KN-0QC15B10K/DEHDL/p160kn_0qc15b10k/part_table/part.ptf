@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'P160KN_0QC15B10K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TT Electronics", "P160KN-0QC15B10K" (!) = "", "P160KN0QC15B10K", "Other", "858-P160KN-0QC15B10K", "https://www.mouser.co.uk/ProductDetail/BI-Technologies-TT-Electronics/P160KN-0QC15B10K?qs=%252BUYXD5bnyXowj%252Bd8P32cNw%3D%3D", "P160KN-0QC15B10K", "https://www.arrow.com/en/products/p160kn-0qc15b10k/bi-technologies", "Potentiometers 16mm Rotary Panel Potentiometer", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/91824.pdf", "16.5 mm"
+END_PART
+
+END.
